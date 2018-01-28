@@ -15,9 +15,15 @@
         "styleguide"
     ],
     "author": {
-        "name": "Bogdan Plieshka",
-        "url": "https://github.com/godban"
+        "name": "Andreas Prietzel",
+        "url": "https://github.com/azorath"
     },
+    "contributors": [
+        {
+            "name": "Bogdan Plieshka",
+            "url": "https://github.com/godban"
+        }
+    ],
     "bugs": {
         "url": "https://github.com/zattoo/stylelint-config/issues"
     },
@@ -25,9 +31,11 @@
         "test": "stylelint 'tests/**/*.scss'"
     },
     "devDependencies": {
-        "stylelint": "^8.4.0",
-        "stylelint-order": "^0.8.0",
-        "stylelint-scss": "^2.2.0"
+        "stylelint": "8.4.0",
+        "stylelint-order": "0.8.0",
+        "stylelint-scss": "2.2.0"
     },
-    "peerDependencies": {}
+    "peerDependencies": {
+        "stylelint": "^8.4.0"
+    }
 }
