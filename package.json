@@ -1,7 +1,7 @@
 {
     "name": "@zattoo/stylelint-config",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": ".stylelintrc",
     "license": "MIT",
     "description": "Extensible shared Zattoo's Stylelint config",
     "homepage": "https://github.com/zattoo/stylelint-config#readme",
@@ -30,7 +30,7 @@
     "scripts": {
         "test": "stylelint 'tests/**/*.scss'"
     },
-    "devDependencies": {
+    "dependencies": {
         "stylelint": "8.4.0",
         "stylelint-order": "0.8.0",
         "stylelint-scss": "2.2.0"
