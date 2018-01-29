@@ -1,0 +1,41 @@
+{
+    "name": "@zattoo/stylelint-config",
+    "version": "1.0.0",
+    "main": ".stylelintrc",
+    "license": "MIT",
+    "description": "Extensible shared Zattoo's Stylelint config",
+    "homepage": "https://github.com/zattoo/stylelint-config#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zattoo/stylelint-config.git"
+    },
+    "keywords": [
+        "stylelint",
+        "stylelint config",
+        "styleguide"
+    ],
+    "author": {
+        "name": "Andreas Prietzel",
+        "url": "https://github.com/azorath"
+    },
+    "contributors": [
+        {
+            "name": "Bogdan Plieshka",
+            "url": "https://github.com/godban"
+        }
+    ],
+    "bugs": {
+        "url": "https://github.com/zattoo/stylelint-config/issues"
+    },
+    "scripts": {
+        "test": "stylelint 'tests/**/*.scss'"
+    },
+    "dependencies": {
+        "stylelint": "8.4.0",
+        "stylelint-order": "0.8.0",
+        "stylelint-scss": "2.2.0"
+    },
+    "peerDependencies": {
+        "stylelint": "^8.4.0"
+    }
+}
