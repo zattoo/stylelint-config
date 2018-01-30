@@ -98,10 +98,7 @@ module.exports = {
             'always-multi-line',
             {
                 except: ['first-nested'],
-                ignore: [
-                    'after-comment',
-                    'inside-block',
-                ],
+                ignore: ['after-comment'],
             },
         ],
         'selector-class-pattern': [
@@ -128,5 +125,7 @@ module.exports = {
         'shorthand-property-no-redundant-values': true,
         'string-quotes': 'single',
         'value-no-vendor-prefix': true,
+        'selector-max-empty-lines': 0,
+        'declaration-empty-line-before': 'never',
     }
 };
