@@ -16,7 +16,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 
-- `always-multi-line` rule
+- `rule-empty-line-before` rule
 
 ## [1.0.0] - 29.01.2018
 
