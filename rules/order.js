@@ -3,18 +3,6 @@
  * @see https://github.com/constverum/stylelint-config-rational-order/blob/master/index.js
  */
 
-/**
- * Adds empty line before properties block
- * @param {Array} properties
- * @return {Object}
- */
-const addEmptyLineBefore = (properties) => {
-    return {
-        emptyLineBefore: 'always',
-        properties,
-    };
-};
-
 const special = [
     'composes',
 ];
@@ -244,20 +232,14 @@ const misc = [
 ];
 
 const idiomaticOrder = [
-    addEmptyLineBefore([
-        ...special,
-        ...visibility,
-        ...positioning,
-        ...boxmodel,
-    ]),
-    addEmptyLineBefore([
-        ...typography,
-        ...visual,
-    ]),
-    addEmptyLineBefore([
-        ...animation,
-        ...misc,
-    ]),
+    ...special,
+    ...visibility,
+    ...positioning,
+    ...boxmodel,
+    ...typography,
+    ...visual,
+    ...animation,
+    ...misc,
 ];
 
 module.exports = {
