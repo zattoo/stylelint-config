@@ -1,6 +1,6 @@
 {
     "name": "@zattoo/stylelint-config",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "main": ".stylelintrc",
     "license": "MIT",
     "description": "Extensible shared Zattoo's Stylelint config",
@@ -22,6 +22,10 @@
         {
             "name": "Bogdan Plieshka",
             "url": "https://github.com/godban"
+        },
+        {
+            "name": "Viktor Dmitriev",
+            "url": "https://github.com/dmitresco"
         }
     ],
     "bugs": {
