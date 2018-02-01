@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [1.2.0] – 01.02.2018
 
+## Unreleased
+
 ### Changed
 
 - [breaking change] `selector-class-pattern` and `scss/dollar-variable-pattern` fixed regex to prevent `__`
