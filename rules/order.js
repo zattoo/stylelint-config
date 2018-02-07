@@ -253,5 +253,15 @@ module.exports = {
                 unspecified: 'bottom',
             },
         ],
+        'order/order': [
+            'custom-properties',
+            'dollar-variables',
+            'declarations',
+            {
+                type: 'at-rule',
+                name: 'include',
+                hasBlock: true
+            },
+        ],
     }
 };
