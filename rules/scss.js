@@ -11,7 +11,7 @@ module.exports = {
         'scss/dollar-variable-colon-space-after': 'always',
         'scss/dollar-variable-colon-space-before': 'never',
         'scss/dollar-variable-pattern': [
-            '^(([a-z0-9]+([A-Z][a-z0-9])*)*)+(_([a-z0-9]+([A-Z][a-z0-9])*)+){0,2}(__([a-z0-9]+([A-Z][a-z0-9])*)+)?$',
+            '^(([a-z0-9]+([A-Z][a-z0-9])*)*)+(_([a-z0-9]+([A-Z][a-z0-9])*)+){0,2}(__([a-zA-Z0-9]+([A-Z][a-z0-9])*)+)?$',
             {
                 message:
                     'Should be in this format [block_element]_property__modifier!',

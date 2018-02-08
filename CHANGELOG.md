@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 
-- Extend at mixin pattern with modificators
+- Allow upper case in modificators for mixins and variables
 
 ## [2.0.0] – 07.02.2018
 
