@@ -36,7 +36,7 @@
     },
     "dependencies": {
         "stylelint": "9.0.0",
-        "stylelint-order": "0.8.0",
+        "stylelint-order": "0.8.1",
         "stylelint-scss": "2.3.0"
     },
     "peerDependencies": {
