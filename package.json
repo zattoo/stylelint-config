@@ -38,8 +38,5 @@
         "stylelint": "9.1.1",
         "stylelint-order": "0.8.1",
         "stylelint-scss": "2.4.0"
-    },
-    "peerDependencies": {
-        "stylelint": "^8.4.0"
     }
 }
