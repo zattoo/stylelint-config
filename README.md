@@ -12,20 +12,6 @@ ZSC aggregates a various Stylelint rules from different plugins
 npm install --save-dev --save-exact @zattoo/stylelint-config
 ```
 
-Since ZSC depends on plugins and extensions, to be available run it you need to install them all.
-
-check:
-
-```shell
-npm info "@zattoo/stylelint-config@latest" peerDependencies
-```
-
-install all as dev dependencies:
-
-```shell
-npm install stylelint --save-exact --save-dev 
-```
-
 ## Configuration
 
 add `zattoo stylelint config` to your Stylelint configuration file under extends:
