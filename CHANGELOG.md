@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## Unreleased
+## [2.1.0] – 01.03.2018
 
 Remove stylelint as peer and update other dependencies to latest versions 
 
@@ -12,7 +12,6 @@ Remove stylelint as peer and update other dependencies to latest versions
 
 ### Fixed
 - at mixin and variables regexp bug
-
 
 ## [2.0.1] – 08.02.2018
 
