@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
-Remove stylelint as peer and update other dependecies to latest versions 
+Remove stylelint as peer and update other dependencies to latest versions 
 
 ## [2.0.2] – 08.02.2018
 
