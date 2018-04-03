@@ -256,12 +256,16 @@ module.exports = {
         'order/order': [
             'custom-properties',
             'dollar-variables',
+            {
+                type: 'at-rule',
+                hasBlock: false,
+            },
             'declarations',
             {
                 type: 'at-rule',
-                name: 'include',
-                hasBlock: true
+                hasBlock: true,
             },
+            'rules', // Nested rules (e. g., a { span {} })
         ],
-    }
+    },
 };
