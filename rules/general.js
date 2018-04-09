@@ -63,30 +63,6 @@ module.exports = {
         'no-missing-end-of-source-newline': true,
         'number-leading-zero': 'always',
         'number-no-trailing-zeros': true,
-        'order/order': [
-            [
-                'custom-properties',
-                'dollar-variables',
-                {
-                    type: 'at-rule',
-                    name: 'include',
-                    parameter: 'respondTo',
-                },
-                {
-                    type: 'at-rule',
-                    hasBlock: false,
-                },
-                {
-                    type: 'at-rule',
-                    hasBlock: true,
-                },
-                'declarations',
-                'rules',
-            ],
-            {
-                unspecified: 'ignore',
-            },
-        ],
         'property-no-unknown': [
             true,
             {
