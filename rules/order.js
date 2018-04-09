@@ -34,6 +34,15 @@ const boxmodel = [
     'flex-flow',
     'flex-direction',
     'flex-wrap',
+    'grid',
+    'grid-template-rows',
+    'grid-template-columns',
+    'grid-template-areas',
+    'grid-auto-rows',
+    'grid-auto-columns',
+    'grid-auto-flow',
+    'grid-column-gap',
+    'grid-row-gap',
     'justify-content',
     'align-content',
     'align-items',
@@ -256,12 +265,16 @@ module.exports = {
         'order/order': [
             'custom-properties',
             'dollar-variables',
+            {
+                type: 'at-rule',
+                hasBlock: false,
+            },
             'declarations',
             {
                 type: 'at-rule',
-                name: 'include',
-                hasBlock: true
+                hasBlock: true,
             },
+            'rules', // Nested rules (e. g., a { span {} })
         ],
-    }
+    },
 };
