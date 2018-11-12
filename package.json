@@ -35,7 +35,7 @@
         "test": "stylelint 'tests/**/*.scss'"
     },
     "dependencies": {
-        "stylelint": "9.7.1",
+        "stylelint": "9.8.0",
         "stylelint-order": "1.0.0",
         "stylelint-scss": "3.4.0"
     }
