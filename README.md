@@ -1,10 +1,6 @@
 # Zattoo's Stylelint Config
 
-Extensible shared Zattoo's Stylelint Config (ZSC)
-
-## Introduction
-
-ZSC aggregates a various Stylelint rules from different plugins
+Extensible Stylelint Config, aggregates a various Stylelint rules from different plugins.
 
 ## Install
 
