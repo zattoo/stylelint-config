@@ -1,6 +1,6 @@
 {
     "name": "@zattoo/stylelint-config",
-    "version": "3.0.0",
+    "version": "3.1.0",
     "main": ".stylelintrc",
     "license": "MIT",
     "description": "Extensible shared Zattoo's Stylelint config",
@@ -35,8 +35,11 @@
         "test": "stylelint 'tests/**/*.scss'"
     },
     "dependencies": {
-        "stylelint": "9.2.0",
-        "stylelint-order": "0.8.1",
-        "stylelint-scss": "3.0.0"
+        "stylelint": "9.10.1",
+        "stylelint-order": "2.0.0",
+        "stylelint-scss": "3.5.2"
+    },
+    "peerDependencies": {
+        "stylelint": "^9.10.1"
     }
 }
