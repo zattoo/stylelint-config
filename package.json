@@ -37,7 +37,7 @@
     "dependencies": {
         "stylelint": "9.10.1",
         "stylelint-order": "2.1.0",
-        "stylelint-scss": "3.8.0"
+        "stylelint-scss": "3.9.1"
     },
     "peerDependencies": {
         "stylelint": "^9.10.1"
