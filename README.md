@@ -1,6 +1,6 @@
 <img width="150" src="./logo/logo.png" align="right" />
 
-# Zattoo's Stylelint Config
+# Zattoo Stylelint Configuration
 
 Stylelint Configuration used in Zattoo. Contains base rules from [Stylelint](https://stylelint.io/) and properties ordering from [stylelint-order](https://github.com/hudochenkov/stylelint-order) for CSS and SCSS. Very opionated.
 
@@ -10,9 +10,9 @@ Stylelint Configuration used in Zattoo. Contains base rules from [Stylelint](htt
 npm install --save-dev --save-exact @zattoo/stylelint-config
 ```
 
-## Configuration
+## Configure
 
-add `zattoo stylelint config` to your Stylelint configuration file under extends:
+add to your Stylelint configuration file (could be `.stylelintrc`):
 
 ```json
 {
@@ -22,13 +22,13 @@ add `zattoo stylelint config` to your Stylelint configuration file under extends
 
 ## Usage
 
-To lint styles
+To lint
 
 ```bash
 stylelint '{APP_FOLDER}/**/*.*css'
 ```
 
-To autofix styles issues
+To autofix issues
 
 
 ```bash
