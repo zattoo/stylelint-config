@@ -1,6 +1,8 @@
+<img width="150" src="./logo/logo.png" align="right" />
+
 # Zattoo's Stylelint Config
 
-Extensible Stylelint Config, aggregates a various Stylelint rules from different plugins.
+Stylelint Configuration used in Zattoo. Contains base rules from [Stylelint](https://stylelint.io/) and properties ordering from [stylelint-order](https://github.com/hudochenkov/stylelint-order) for CSS and SCSS. Very opionated.
 
 ## Install
 
@@ -23,12 +25,12 @@ add `zattoo stylelint config` to your Stylelint configuration file under extends
 To lint styles
 
 ```bash
-stylelint '{APP_FOLDER}/**/*.scss'
+stylelint '{APP_FOLDER}/**/*.*css'
 ```
 
 To autofix styles issues
 
 
 ```bash
-stylelint '{APP_FOLDER}/**/*.scss' --fix
+stylelint '{APP_FOLDER}/**/*.*css' --fix
 ```
