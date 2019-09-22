@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## Unreleased
 
 ### Changed
-- raise all dependencies
+- updated all dependencies
 - declared support of multiple major versions of Stylelint peer
 
 ## [3.1.0] – 02.02.2018
