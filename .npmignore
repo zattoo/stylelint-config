@@ -1,8 +1,9 @@
+.DS_Store/
+.github/
 .idea/
-.git
-.DS_Store
-.npmrc
+logo/
 node_modules/
 tests/
-npm-debug.log
 .stylelintrc
+.travis.yml
+npm-debug.log
