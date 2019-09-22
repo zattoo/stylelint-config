@@ -35,11 +35,11 @@
         "test": "stylelint 'tests/**/*.scss'"
     },
     "dependencies": {
-        "stylelint": "9.10.1",
-        "stylelint-order": "2.2.1",
-        "stylelint-scss": "3.10.1"
+        "stylelint": "^11.0.0",
+        "stylelint-order": "^3.1.1",
+        "stylelint-scss": "^3.11.1"
     },
     "peerDependencies": {
-        "stylelint": "^9.10.1"
+        "stylelint": "^9.10.0 || ^10.0.0 || ^11.0.0"
     }
 }
