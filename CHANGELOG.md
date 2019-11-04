@@ -6,8 +6,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [3.2.1] – 22.09.2019
 
-### Changed
-- install zploy globaly
+### Fixed
+- `zploy` appearance in dependecies
 
 ## [3.2.0] – 22.09.2019
 
