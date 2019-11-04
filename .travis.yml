@@ -8,6 +8,7 @@ branches:
     - master
     - production
     - release
+    - hotfix
 
 stages:
   - test
