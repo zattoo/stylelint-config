@@ -45,6 +45,7 @@ module.exports = {
         },
         'font-family-name-quotes': 'always-where-required',
         'font-weight-notation': 'numeric',
+        'font-family-no-missing-generic-family-keyword': true,
         'function-comma-space-after': 'always-single-line',
         'function-parentheses-space-inside': 'never',
         'function-url-quotes': 'always',
