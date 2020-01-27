@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ...
 
+## [3.3.0] – 27.01.2020
+
+Added `font-family-no-missing-generic-family-keyword` rule, to assure always present fallback to system font.
+
 ## [3.2.1] – 04.11.2019
 
 ### Fixed
