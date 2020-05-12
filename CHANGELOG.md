@@ -9,8 +9,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 Dependencies update
 
 ### Changed
-- [breaking change] `stylelint` dependency raised to v13, including peer
+- [breaking change] `stylelint` dependency raised to v13
 - [breaking change] `stylelint-order` dependency raised to v4
+
+### Removed
+- `stylelint` as peer dependency
 
 ## [3.3.0] – 27.01.2020
 
