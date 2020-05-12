@@ -2,7 +2,7 @@
 
 # Zattoo Stylelint Configuration
 
-Stylelint Configuration used in Zattoo. Contains base rules from [Stylelint](https://stylelint.io/) and properties ordering from [stylelint-order](https://github.com/hudochenkov/stylelint-order) for CSS and SCSS. Very opionated.
+Stylelint Configuration used in Zattoo. Contains base rules from [Stylelint](https://stylelint.io/) and properties ordering from [stylelint-order](https://github.com/hudochenkov/stylelint-order) for CSS and SCSS. Very opinionated.
 
 ## Install
 

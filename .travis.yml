@@ -1,7 +1,7 @@
 language: node_js
 os: linux
 node_js:
-  11
+  13.5.0
 
 branches:
   only:
@@ -26,9 +26,9 @@ jobs:
         - npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
       install:
         - npm ci
-        - npm i @zattoo/zploy@1.0.0-beta.5 -g
+        - npm i @zattoo/zploy@1.0.0-rc.0 -g
       script:
-      - zploy --gh_token=$GH_TOKEN --npm_token=$NPM_TOKEN
+        - zploy --gh_token=$GH_TOKEN --npm_token=$NPM_TOKEN
 
 notifications:
   email:
