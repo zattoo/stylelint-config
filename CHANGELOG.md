@@ -6,7 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [5.0.0] – Unreleased
 
-[breaking change] Add `declaration-block-no-shorthand-property-overrides` rule
+### Added
+- [breaking change] `declaration-block-no-shorthand-property-overrides` rule
+
+### Changed
+- stylelint-scss updated to `3.19.0`
 
 ## [4.0.0] – 12.05.2020
 
