@@ -34,6 +34,7 @@ module.exports = {
         'color-no-invalid-hex': true,
         'declaration-bang-space-after': 'never',
         'declaration-bang-space-before': 'always',
+        'declaration-block-no-shorthand-property-overrides': true,
         'declaration-block-semicolon-newline-after': 'always',
         'declaration-block-semicolon-space-before': 'never',
         'declaration-block-single-line-max-declarations': 1,
