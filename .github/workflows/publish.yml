@@ -1,0 +1,23 @@
+name: Publish
+
+on:
+  push:
+    branches:
+      - production
+
+jobs:
+  publish:
+    name: Package
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{github.token}}
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+      - run: npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
+      - uses: zattoo/publish@v1
+        with:
+          github_token: ${{github.token}}
+          npm_token: ${{secrets.NPM_TOKEN}}
