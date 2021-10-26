@@ -1,5 +1,5 @@
 module.exports = {
-    overrides: {
+    overrides: [{
         files: ['**/*.scss'],
         customSyntax: 'postcss-scss',
         plugins: ['stylelint-scss'],
@@ -27,5 +27,5 @@ module.exports = {
             'scss/operator-no-unspaced': true,
             'scss/selector-no-redundant-nesting-selector': true,
         },
-    },
+    }],
 };
