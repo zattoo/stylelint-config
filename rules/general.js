@@ -1,6 +1,6 @@
 module.exports = {
     rules: {
-        'at-rule-blacklist': ['debug'],
+        'at-rule-disallowed-list': ['debug'],
         'at-rule-no-vendor-prefix': true,
         'at-rule-empty-line-before': [
             'always',
@@ -40,7 +40,7 @@ module.exports = {
         'declaration-block-trailing-semicolon': 'always',
         'declaration-colon-space-after': 'always-single-line',
         'declaration-colon-space-before': 'never',
-        'declaration-property-value-blacklist': {
+        'declaration-property-value-disallowed-list': {
             '/^border/': ['none'],
         },
         'font-family-name-quotes': 'always-where-required',

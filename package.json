@@ -32,11 +32,21 @@
         "url": "https://github.com/zattoo/stylelint-config/issues"
     },
     "scripts": {
-        "test": "stylelint 'tests/**/*.scss'"
+        "test": "stylelint \"tests/**/*.scss\""
+    },
+    "engines": {
+        "node": ">=16.10.0",
+        "npm": ">=7.24.0"
     },
     "dependencies": {
-        "stylelint": "^13.3.3",
-        "stylelint-order": "^4.0.0",
-        "stylelint-scss": "^3.17.2"
+        "postcss-scss": "^4.0.1",
+        "stylelint-order": "^5.0.0",
+        "stylelint-scss": "^4.0.0"
+    },
+    "devDependencies": {
+        "stylelint": "14.0.1"
+    },
+    "peerDependencies": {
+        "stylelint": "^14.0.1"
     }
 }

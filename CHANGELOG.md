@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## Unreleased
 
 ### Changed
+- [breaking change] Updated Stylelint to v14
 - stylelint-scss updated to `3.19.0`
 
 ## [4.0.0] – 12.05.2020
