@@ -1,6 +1,6 @@
 module.exports = {
     rules: {
-        'at-rule-blacklist': ['debug'],
+        'at-rule-disallowed-list': ['debug'],
         'at-rule-no-vendor-prefix': true,
         'at-rule-empty-line-before': [
             'always',
@@ -34,13 +34,14 @@ module.exports = {
         'color-no-invalid-hex': true,
         'declaration-bang-space-after': 'never',
         'declaration-bang-space-before': 'always',
+        'declaration-block-no-shorthand-property-overrides': true,
         'declaration-block-semicolon-newline-after': 'always',
         'declaration-block-semicolon-space-before': 'never',
         'declaration-block-single-line-max-declarations': 1,
         'declaration-block-trailing-semicolon': 'always',
         'declaration-colon-space-after': 'always-single-line',
         'declaration-colon-space-before': 'never',
-        'declaration-property-value-blacklist': {
+        'declaration-property-value-disallowed-list': {
             '/^border/': ['none'],
         },
         'font-family-name-quotes': 'always-where-required',
