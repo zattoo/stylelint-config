@@ -3,4 +3,4 @@
 # and automatically requests reviews from them when a pull request changes any owned files
 # For more details see https://github.com/blog/2392-introducing-code-owners
 
-* @azorath @godbahn @dmitresco @pverkhovskyi @zattoo-bot
+* @azorath @godbahn @pverkhovskyi @que-etc @zattoo-bot
