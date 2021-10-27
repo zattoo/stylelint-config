@@ -1,0 +1,32 @@
+name: Test
+
+on:
+  pull_request:
+    branches:
+      - master
+      - production
+      - release
+      - hotfix
+
+jobs:
+  changelog:
+    name: Changelog
+    if: contains(github.head_ref, 'backmerge') != true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: zattoo/changelog@v1
+        with:
+          token: ${{github.token}}
+  validate-rules:
+    name: Validate Rules
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+      - name: Install
+        run: npm ci
+      - name: Lint Styles
+        run: npm run test
