@@ -14,7 +14,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - stylelint-scss updated to `3.19.0`
 
 ### Infrastructure
-- Migrated to Github actions
+- Migrated to GitHub actions
 
 ## [4.0.0] – 12.05.2020
 
@@ -68,7 +68,7 @@ Remove stylelint as peer and update other dependencies to latest versions
 ## [2.0.2] – 08.02.2018
 
 ### Fixed
-- at mixin and variables regexp bug
+At mixin and variables regexp bug
 
 ## [2.0.1] – 08.02.2018
 
@@ -102,6 +102,6 @@ Remove stylelint as peer and update other dependencies to latest versions
 
 Initial bootstrap from React Shop project
 
-### Changed (compare with origin)
+### Changed
 - decomposed rules
 - `number-leading-zero` rule `never` → `always`
