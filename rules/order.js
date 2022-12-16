@@ -15,6 +15,7 @@ const visibility = [
 
 const positioning = [
     'position',
+    'inset',
     'top',
     'right',
     'bottom',
@@ -56,6 +57,7 @@ const boxmodel = [
     'height',
     'min-height',
     'max-height',
+    'gap',
     'margin',
     'margin-top',
     'margin-right',

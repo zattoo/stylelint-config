@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [5.1.0] - 16.12.2022
+
+### Added
+- `inset` to `positioning`
+- `gap` to `boxmodel`
+
 ## [5.0.0] - 27.10.2021
 
 ### Added
@@ -29,7 +35,7 @@ Dependencies update
 
 ## [3.3.0] - 27.01.2020
 
-Added `font-family-no-missing-generic-family-keyword` rule, to assure always present fallback to system font.
+Added `font-family-no-missing-generic-family-keyword` rule, to assure always present fallback to system font
 
 ## [3.2.1] - 04.11.2019
 
