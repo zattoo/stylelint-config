@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## Unreleased
+
+### Changed
+- Updated stylelint to v15
+- [breaking change] removed all rules which were declared deprecated in Stylelint v15. See [deprecated rules](https://github.com/stylelint/stylelint/blob/main/docs/user-guide/rules.md#deprecated).
+
 ## [5.1.0] - 16.12.2022
 
 ### Added
