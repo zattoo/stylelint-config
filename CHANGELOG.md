@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Infrastructure
 - actions/checkout `v2` -> `v3`
-- actions/setup-node `v2` -> `v3`
+- actions/setup-node `v1` -> `v3`
 - stylelint-scss `4.3.0` -> `6.0.0`
 - stylelint -> `15.6.0` -> `16.1.0`
 - Node `16` -> `21`
