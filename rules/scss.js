@@ -6,7 +6,7 @@ module.exports = {
         rules: {
             'scss/at-extend-no-missing-placeholder': true,
             'scss/at-function-pattern': '^[a-z]+([a-zA-Z0-9]+[a-z0-9]+)?$',
-            'scss/at-import-no-partial-leading-underscore': true,
+            'scss/load-no-partial-leading-underscore': true,
             'scss/at-import-partial-extension-blacklist': ['scss'],
             'scss/at-mixin-pattern': '^[a-z]+([a-zA-Z0-9]+[a-z0-9]+)?(__([a-zA-Z0-9])+)?$',
             'scss/dollar-variable-pattern': [
