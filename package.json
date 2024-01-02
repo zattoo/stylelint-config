@@ -39,8 +39,8 @@
         "npm": ">=10.2.4"
     },
     "dependencies": {
-        "postcss-scss": "4.0.9",
-        "stylelint-order": "6.0.4",
+        "postcss-scss": "^4.0.9",
+        "stylelint-order": "^6.0.4",
         "stylelint-scss": "^6.0.0"
     },
     "devDependencies": {
