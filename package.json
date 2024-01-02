@@ -35,16 +35,16 @@
         "test": "stylelint \"tests/**/*.scss\""
     },
     "engines": {
-        "node": ">=16.10.0",
-        "npm": ">=7.24.0"
+        "node": ">=21.5.0",
+        "npm": ">=10.2.4"
     },
     "dependencies": {
-        "postcss-scss": "^4.0.6",
-        "stylelint-order": "^6.0.3",
-        "stylelint-scss": "^4.3.0"
+        "postcss-scss": "^4.0.9",
+        "stylelint-order": "^6.0.4",
+        "stylelint-scss": "^6.0.0"
     },
     "devDependencies": {
-        "stylelint": "15.6.0"
+        "stylelint": "16.1.0"
     },
     "peerDependencies": {
         "stylelint": "^15.6.0"
