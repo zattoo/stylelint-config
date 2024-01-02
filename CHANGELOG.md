@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
+## Changed
+- Replace deprecated `scss/at-import-no-partial-leading-underscore` for `scss/load-no-partial-leading-underscore`
+
 ### Infrastructure
 - actions/checkout `v2` -> `v3`
 - actions/setup-node `v2` -> `v3`
