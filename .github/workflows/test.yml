@@ -14,7 +14,7 @@ jobs:
     if: contains(github.head_ref, 'backmerge') != true
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: zattoo/changelog@v1
         with:
           token: ${{github.token}}
@@ -22,10 +22,10 @@ jobs:
     name: Validate Rules
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version-file: '.nvmrc'
       - name: Install
         run: npm ci
       - name: Lint Styles
