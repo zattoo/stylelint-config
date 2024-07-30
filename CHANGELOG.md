@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [7.0.1] - 30.07.2024
+
+- Minimal supported version of Node.js was lowered from `21.5.0` to `20.12.2`
+
 ## [7.0.0] - 02.01.2024
 
 ### Changed
