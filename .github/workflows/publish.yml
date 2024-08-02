@@ -16,8 +16,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version-file: '.nvmrc'
-      - run: npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
-      - uses: zattoo/publish@v1
+      - run: npm config set //npm.pkg.github.com/:_authToken=${{secrets.GITHUB_TOKEN}}
+      - uses: zattoo/publish@v2
         with:
           github_token: ${{github.token}}
-          npm_token: ${{secrets.NPM_TOKEN}}
+          publish_package: true
