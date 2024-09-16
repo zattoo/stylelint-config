@@ -1,6 +1,6 @@
 {
     "name": "@zattoo/stylelint-config",
-    "version": "7.0.1",
+    "version": "8.0.0",
     "main": ".stylelintrc",
     "license": "MIT",
     "description": "Extensible shared Zattoo's Stylelint config",
