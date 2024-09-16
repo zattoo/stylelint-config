@@ -1,6 +1,6 @@
 {
     "name": "@zattoo/stylelint-config",
-    "version": "7.0.1",
+    "version": "8.0.0",
     "main": ".stylelintrc",
     "license": "MIT",
     "description": "Extensible shared Zattoo's Stylelint config",
@@ -8,6 +8,10 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/zattoo/stylelint-config.git"
+    },
+    "publishConfig": {
+        "access": "restricted",
+        "registry": "https://npm.pkg.github.com"
     },
     "keywords": [
         "stylelint",
