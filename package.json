@@ -45,10 +45,10 @@
     "dependencies": {
         "postcss-scss": "^4.0.9",
         "stylelint-order": "^6.0.4",
-        "stylelint-scss": "^6.0.0"
+        "stylelint-scss": "^6.7.0"
     },
     "devDependencies": {
-        "stylelint": "16.1.0"
+        "stylelint": "16.10.0"
     },
     "peerDependencies": {
         "stylelint": "^16.1.0"
