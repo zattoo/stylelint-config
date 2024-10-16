@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## Unreleased
 
 - Package was moved from NPM to GitHub Packages
+- Replaced `at-import-partial-extension-blacklist` with `at-import-partial-extension-disallowed-lis`
+- stylelint-scss `6.0.0` -> `6.7.0`
+- stylelint `16.1.0` -> `6.10.0`
 
 ## [7.0.1] - 30.07.2024
 
