@@ -1,9 +1,11 @@
-module.exports = {
+export default {
     overrides: [{
         files: ['**/*.scss'],
         customSyntax: 'postcss-scss',
         plugins: ['stylelint-scss'],
         rules: {
+            'selector-class-pattern': null,
+            'selector-no-qualifying-type': null,
             'scss/at-extend-no-missing-placeholder': true,
             'scss/at-function-pattern': '^[a-z]+([a-zA-Z0-9]+[a-z0-9]+)?$',
             'scss/load-no-partial-leading-underscore': true,
@@ -20,6 +22,13 @@ module.exports = {
                 message: 'Placeholders should not be used, use mixin instead!',
             }],
             'scss/selector-no-redundant-nesting-selector': true,
+            'scss/selector-class-pattern': [
+                '^(([a-z0-9]+([A-Z][a-z0-9])*)*)+(_([a-z0-9]+([A-Z][a-z0-9])*)+)?(__([a-z0-9]+([A-Z][a-z0-9])*)+)?$',
+                {
+                    resolveNestedSelectors: true,
+                    message: 'Should be in this format block_element__modifier!',
+                },
+            ],
         },
     }],
 };
