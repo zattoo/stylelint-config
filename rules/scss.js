@@ -1,6 +1,7 @@
 export default {
     overrides: [{
         files: ['**/*.scss'],
+        customSyntax: 'postcss-scss',
         plugins: ['stylelint-scss'],
         rules: {
             'selector-class-pattern': null,

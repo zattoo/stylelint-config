@@ -44,6 +44,7 @@
         "npm": ">=11.6.2"
     },
     "dependencies": {
+        "postcss-scss": "^4.0.9",
         "stylelint-order": "^8.1.2",
         "stylelint-scss": "^7.3.0"
     },
