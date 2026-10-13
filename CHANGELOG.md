@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## Unreleased
+
+- Replaced `at-import-partial-extension-blacklist` with `at-import-partial-extension-disallowed-lis`
+- stylelint-scss `6.0.0` -> `6.7.0`
+- stylelint `16.1.0` -> `6.10.0`
+
 ## [8.0.0] - 16.09.2024
 
 - Package was moved from NPM to GitHub Packages
