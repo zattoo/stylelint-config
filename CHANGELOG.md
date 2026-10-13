@@ -6,9 +6,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
-- Replaced `at-import-partial-extension-blacklist` with `at-import-partial-extension-disallowed-lis`
-- stylelint-scss `6.0.0` -> `6.7.0`
-- stylelint `16.1.0` -> `6.10.0`
+- [breaking change] The package was migrated to ESM
+- [breaking change] Minimum Node.js version was raised from `v20.12.2` to `v24.12.0`
+- [breaking change] `stylelint` was updated from `v16` to `v17.16.0`
+- [breaking change] `stylelint-scss` was updated from `v6` to `v7.3.0`
+- [breaking change] `stylelint-order` was updated from `v6` to `v8.1.2`
+- [breaking change] `at-import-partial-extension-blacklist` was replaced with `at-import-partial-extension-disallowed-list`
+- [breaking change] `selector-no-qualifying-type` rule was disabled for `.scss` files
+- [breaking change] `selector-class-pattern` rule no longer supports concatenated class names in `.css` files
+- [breaking change] `selector-class-pattern` rule was replaced by `scss/selector-class-pattern` for `.scss` files
 
 ## [8.0.0] - 16.09.2024
 
