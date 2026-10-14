@@ -1,6 +1,6 @@
 {
     "name": "@zattoo/stylelint-config",
-    "version": "8.0.0",
+    "version": "9.0.0",
     "main": ".stylelintrc",
     "license": "MIT",
     "description": "Extensible shared Zattoo's Stylelint config",
@@ -9,6 +9,7 @@
         "type": "git",
         "url": "git+https://github.com/zattoo/stylelint-config.git"
     },
+    "type": "module",
     "publishConfig": {
         "access": "restricted",
         "registry": "https://npm.pkg.github.com"
@@ -39,18 +40,18 @@
         "test": "stylelint \"tests/**/*.scss\""
     },
     "engines": {
-        "node": ">=20.12.2",
-        "npm": ">=10.5.0"
+        "node": ">=24.12.0",
+        "npm": ">=11.6.2"
     },
     "dependencies": {
         "postcss-scss": "^4.0.9",
-        "stylelint-order": "^6.0.4",
-        "stylelint-scss": "^6.0.0"
+        "stylelint-order": "^8.1.2",
+        "stylelint-scss": "^7.3.0"
     },
     "devDependencies": {
-        "stylelint": "16.1.0"
+        "stylelint": "17.16.0"
     },
     "peerDependencies": {
-        "stylelint": "^16.1.0"
+        "stylelint": "^17.16.0"
     }
 }

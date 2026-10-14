@@ -1,13 +1,15 @@
-module.exports = {
+export default {
     overrides: [{
         files: ['**/*.scss'],
         customSyntax: 'postcss-scss',
         plugins: ['stylelint-scss'],
         rules: {
+            'selector-class-pattern': null,
+            'selector-no-qualifying-type': null,
             'scss/at-extend-no-missing-placeholder': true,
             'scss/at-function-pattern': '^[a-z]+([a-zA-Z0-9]+[a-z0-9]+)?$',
             'scss/load-no-partial-leading-underscore': true,
-            'scss/at-import-partial-extension-blacklist': ['scss'],
+            'scss/at-import-partial-extension-disallowed-list': ['scss'],
             'scss/at-mixin-pattern': '^[a-z]+([a-zA-Z0-9]+[a-z0-9]+)?(__([a-zA-Z0-9])+)?$',
             'scss/dollar-variable-pattern': [
                 '^(([a-z0-9]+([A-Z][a-z0-9])*)*)+(_([a-z0-9]+([A-Z][a-z0-9])*)+){0,2}(__([a-zA-Z0-9])+)?$',
@@ -20,6 +22,13 @@ module.exports = {
                 message: 'Placeholders should not be used, use mixin instead!',
             }],
             'scss/selector-no-redundant-nesting-selector': true,
+            'scss/selector-class-pattern': [
+                '^(([a-z0-9]+([A-Z][a-z0-9])*)*)+(_([a-z0-9]+([A-Z][a-z0-9])*)+)?(__([a-z0-9]+([A-Z][a-z0-9])*)+)?$',
+                {
+                    resolveNestedSelectors: true,
+                    message: 'Should be in this format block_element__modifier!',
+                },
+            ],
         },
     }],
 };

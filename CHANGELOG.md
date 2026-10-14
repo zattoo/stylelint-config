@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [9.0.0] - 14.10.2026
+
+- [breaking change] The package was migrated to ESM
+- [breaking change] Minimum Node.js version was raised from `v20.12.2` to `v24.12.0`
+- [breaking change] `stylelint` was updated from `v16` to `v17.16.0`
+- [breaking change] `stylelint-scss` was updated from `v6` to `v7.3.0`
+- [breaking change] `stylelint-order` was updated from `v6` to `v8.1.2`
+- [breaking change] `at-import-partial-extension-blacklist` was replaced with `at-import-partial-extension-disallowed-list`
+- [breaking change] `selector-no-qualifying-type` rule was disabled for `.scss` files
+- [breaking change] `selector-class-pattern` rule no longer supports concatenated class names in `.css` files
+- [breaking change] `selector-class-pattern` rule was replaced by `scss/selector-class-pattern` for `.scss` files
+
 ## [8.0.0] - 16.09.2024
 
 - Package was moved from NPM to GitHub Packages

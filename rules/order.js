@@ -253,7 +253,7 @@ const idiomaticOrder = [
     ...misc,
 ];
 
-module.exports = {
+export default {
     plugins: [
         'stylelint-order',
     ],
